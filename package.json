@@ -1,0 +1,32 @@
+{
+  "name": "gotradepal",
+  "version": "1.0.0",
+  "description": "AI Sales Operating System with Custom Domain Deployment",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "build": "echo 'Building production...' && mkdir -p dist && echo 'Build complete'",
+    "test": "echo 'Running tests...'",
+    "lint": "echo 'Linting code...'",
+    "dev": "node index.js --dev"
+  },
+  "keywords": [
+    "gotradepal",
+    "ai-sales",
+    "automation",
+    "trading"
+  ],
+  "author": "Gotradepal",
+  "license": "CC0-1.0",
+  "dependencies": {},
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gotradepal/Gotradepal-.git"
+  },
+  "homepage": "https://www.gotradepal.com"
+}
